@@ -1,0 +1,110 @@
+{
+  // NORMAL SETTINGS
+  // ===============
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "css.validate": true,
+  "workbench.editor.showTabs": "multiple",
+
+  // SHARED SETTINGS
+  // ===============
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "explorer.openEditors.visible": 0,
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.confirmDelete": false,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": true,
+  "emmet.triggerExpansionOnTab": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "editor.wordWrap": "on",
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[md]": {
+    "other": false,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "strings": false
+    }
+  },
+  "editor.fontSize": 16, // 21px
+  "terminal.integrated.fontSize": 12,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+
+  "breadcrumbs.enabled": false,
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.cursorBlinking": "solid",
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [],
+  "explorer.decorations.badges": false,
+  "explorer.decorations.colors": false,
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "workbench.sideBar.location": "left",
+  "editor.inlineSuggest.enabled": true,
+
+  "[dockerfile]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "workbench.colorTheme": "One Dark Pro Monokai Darker",
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.multiCursorModifier": "ctrlCmd",
+  // "svelte.plugin.svelte.note-new-transformation": false,
+  "window.zoomLevel": 1,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000005"
+        }
+      }
+    ]
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.settings.applyToAllProfiles": [
+
+  ],
+  "terminal.integrated.env.linux": {},
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
